@@ -27,15 +27,29 @@ print(result) # 2125
 result = solution(96900, "S")
 print(result) # 92055
 
-def 보조함수(month, day):
-    month_list = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    total = 0;
-    for i in range(month-1):
-        total += month_list[i]
-    # tatal += @@@
-    # return tatal -1
+# def 보조함수(month, day):
+#     month_list = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+#     total = 0;
+#     for i in range(month-1):
+#         total += month_list[i]
+#     # tatal += @@@
+#     # return tatal -1
+#
+# def solution(start_month, start_day, end_month, end_day):
+#     start_total = 보조함수(start_month, start_day)
+#     end_total = 보조함수(end_month, end_day)
+#     return end_total - start_total
 
-def solution(start_month, start_day, end_month, end_day):
-    start_total = 보조함수(start_month, start_day)
-    end_total = 보조함수(end_month, end_day)
-    return end_total - start_total
+arr = [1,2,3,3,1,3,3,2,3,2]
+count = [0,0,0]
+일 =0; 이 = 0; 삼 = 0
+for x in arr:
+    if x == 1:
+        count[1] += 1
+    elif x == 2:
+        count[2] += 1
+    elif x == 3:
+        count[3] += 1
+print(f"1의갯수 : {count[1]}")
+print(f"2의갯수 : {count[2]}")
+print(f"3의갯수 : {count[3]}")
