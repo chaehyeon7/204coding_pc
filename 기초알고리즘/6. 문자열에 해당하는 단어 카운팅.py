@@ -4,6 +4,8 @@ string = "ILOVKEFLOVEE"
 find = "LOV"
 count = 0
 
+print(string.count("LOV"))
+
 #Q1. 왜 일반화된 코드가 아닐까? -> find 문자열의 길이에 따라 코드가 달라짐
 #Q2. 결함을 찾아라 -> string의 index범위를 넘어설 수 있다.
 
