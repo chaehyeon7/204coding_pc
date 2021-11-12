@@ -10,4 +10,3 @@ for x in arr:
     # result: 기존값, x: 새로 들어오는 값
     if result < x:
         result = x
-
