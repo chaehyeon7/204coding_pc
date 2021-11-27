@@ -4,11 +4,13 @@ arr = [1, 2, 2, 2, 3, 1, 1, 3, 2]
 # 방법1
 # arr에 반복횟수를 구한다.
 반복횟수 = arr.count(2)
+print(반복횟수)
 
 # 반복횟수 만큼
 for i in range(반복횟수):
     # 2를 지운다.
     arr.remove(2)
+print(반복횟수)
 
 # 방법2
 

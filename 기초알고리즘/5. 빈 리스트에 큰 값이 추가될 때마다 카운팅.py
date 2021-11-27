@@ -15,6 +15,7 @@ for x in arr:
         max = x
         # count값 1 증가
         count += 1
+print(count)
 
 
 # 방법 2
@@ -30,3 +31,4 @@ for x in arr[1:]:
         max = x
         # count값 1 증가
         count += 1
+print(count)
